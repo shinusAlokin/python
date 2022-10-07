@@ -1,3 +1,4 @@
+
 def percentage_to_value(percent ,basic_pay):
     return round((percent/100) * basic_pay)
 

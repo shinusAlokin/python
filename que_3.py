@@ -1,3 +1,4 @@
+
 def validate_user():
     while True:
         user_name = input("Enter your User Name: ")
@@ -5,7 +6,7 @@ def validate_user():
         confirm_user = input("Enter your User Name again: ")
         confirm_pwd = input("Enter your Password again: ")
 
-        if user_name != confirm_user or password != confirm_pwd:
+        if confirm_user != user_name or confirm_pwd != password:
             print("Invalid User Name or Password\n")
             continue
         else:

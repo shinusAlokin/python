@@ -1,3 +1,4 @@
+
 def calculate_grade():
     print("Enter marks of Physics, Chemistry, Maths, English, Biology in order: ")
     marks = input()
