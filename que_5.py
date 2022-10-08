@@ -1,5 +1,5 @@
 
-def display_sum():
+def sum_odd_even():
     even = 0
     odd = 0
     for i in range(15, 36):
@@ -11,4 +11,5 @@ def display_sum():
     print(f"Sum of even is: {even}")
     return (odd, even)
 
-display_sum()
+if __name__ == "__main__":
+    sum_odd_even()

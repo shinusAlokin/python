@@ -6,4 +6,8 @@ def already_exists():
     return roll_number
 
 
+if __name__ == "__main__":
+    already_exists()
+
+
 

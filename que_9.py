@@ -4,8 +4,6 @@ def odd_index():
     for i, j in enumerate(num_list):
         if i%2 != 0:
             odd_list.append(j)
-        else:
-            continue
     print(odd_list)
     return odd_list
 
